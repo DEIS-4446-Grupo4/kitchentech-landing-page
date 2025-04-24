@@ -44,7 +44,7 @@ section {
 
 /* Header */
 .header {
-    background-color: var(--color-900);
+    background-color: var(--color-700);
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -189,7 +189,7 @@ section {
 
 /* Estilos para la sección de equipo */
 #team {
-    background-color: var(--color-100);
+    background-color: var(--color-50);
     padding: 60px 20px;
     text-align: center;
 }
@@ -245,7 +245,7 @@ section {
 
 /* Sección Features */
 #features {
-    background-color: var(--color-50);
+    background-color: var(--color-200);
     padding: 60px 20px;
     text-align: center;
 }
@@ -278,24 +278,17 @@ section {
     font-weight: 600;
 }
 
-
-
-
-
-
-
-
 /* Estilos para la galería */
 
 /* Sección Gallery */
 #gallery {
-    background-color: var(--color-400);
+    background-color: var(--color-50);
     padding: 60px 20px;
     text-align: center;
 }
 
 #gallery h2 {
-    color: var(--color-100);
+    color: var(--color-600);
     font-size: 36px;
 }
 
@@ -325,13 +318,10 @@ section {
 
 /* Sección Contacto */
 .contact-section {
-    background-color: var(--color-50); /* Fondo claro */
+    background-color: var(--color-200); /* Fondo claro */
     border: 2px solid var(--color-200); /* Borde */
-    border-radius: 15px; /* Bordes redondeados */
     padding: 40px 20px; /* Espaciado interior */
-    max-width: 500px; /* Ancho máximo del cuadro */
-    margin: 40px auto; /* Centrar la sección */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Sombra para resaltar */
+    margin-top: 40px; /* Centrar la sección */
     text-align: center; /* Centrar el texto */
 }
 
@@ -360,8 +350,8 @@ section {
 
 /* Footer */
 footer {
-    background-color: var(--color-900);
-    color: var(--color-100);
+    background-color: var(--color-700);
+    color: var(--color-50);
     text-align: center;
     padding: 20px;
     font-size: 14px;
